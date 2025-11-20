@@ -107,6 +107,7 @@ huangcang: {
 }
 }
     */
+    console.log(window.__ENV__.API_SITES);
     const env_api_sites = JSON.parse(decodeURIComponent(window.__ENV__.API_SITES));
     window.extendAPISites(env_api_sites);
 }
